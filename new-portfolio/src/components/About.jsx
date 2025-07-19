@@ -113,9 +113,7 @@ const About = () => {
                 variants={itemVariants}
               >
                 I'm{' '}
-                <span className="font-bold text-teal-300">
-                  Mohammed Adegbite
-                </span>, a passionate Full-Stack Software Engineer with a Computer Science degree and training from Semicolon Africa. I build scalable, user-focused applications that blend functionality with intuitive design.
+                a passionate Full-Stack Software Engineer with a Computer Science degree and training from Semicolon Africa. I build scalable, user-focused applications that blend functionality with intuitive design.
               </motion.p>
 
               {/* Skills Highlight */}
