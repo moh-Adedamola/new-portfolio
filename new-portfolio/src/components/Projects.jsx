@@ -10,27 +10,21 @@ const Projects = () => {
         {
             title: "Car Rental Service App",
             link: "https://moh-car-rental.vercel.app/",
-            problem: "Customers face difficulties finding reliable and convenient car rental services with real-time availability and booking options.",
             solution: "A web application built with the MERN stack (MongoDB, Express.js, React, Node.js) to enable users to browse, book, and manage car rentals seamlessly.",
-            impact: "Improved customer access to car rental services with real-time availability, streamlined booking processes, and enhanced user satisfaction.",
             tools: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS", "REST APIs"],
             details: "Developed a full-stack MERN application with MongoDB for storing car and booking data, Express.js and Node.js for robust backend APIs, and React with Tailwind CSS for a responsive, user-friendly frontend.",
         },
         {
             title: "Library Management System",
-            problem: "Inefficient manual processes for book borrowing, returning, and tracking.",
             solution: "A robust library management system allowing users to search for books, check availability, borrow/return books, and track due dates and fines.",
-            impact: "Streamlined library operations and improved user experience with automated notifications and catalog search.",
             tools: ["Java Spring Boot", "MySQL", "React.js", "REST APIs", "Bootstrap"],
             details: "Implemented backend logic for book management and user interactions, and integrated an intuitive frontend for catalog search and notifications.",
             githubLink: "https://github.com/moh-Adedamola/LibraryManagementApp.git"
         },
         {
-             title: "School Management System",
-             link: "https://molek-group-of-schools.vercel.app/",
-            problem: "Manual school administration processes lead to inefficiencies in managing student records, timetables, and communication.",
+            title: "School Management System",
+            link: "https://molek-group-of-schools.vercel.app/",
             solution: "A web application built with the MERN stack (MongoDB, Express.js, React, Node.js) to streamline student management, scheduling, and communication.",
-            impact: "Enhanced administrative efficiency, improved communication between stakeholders, and centralized access to school data.",
             tools: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS", "REST APIs"],
             details: "Developed a full-stack MERN application with MongoDB for storing student and administrative data, Express.js and Node.js for secure backend APIs, and React with Tailwind CSS for a responsive, intuitive frontend.",
             
@@ -180,12 +174,7 @@ const Projects = () => {
                                     )}
                                 </div>
 
-                                {/* Problem Statement */}
-                                <div className="bg-gray-900/20 rounded-2xl p-4 mb-4 border border-gray-600/30">
-                                    <p className="text-gray-100 font-light leading-relaxed text-sm sm:text-base">
-                                        {project.problem}
-                                    </p>
-                                </div>
+                                
 
                                 {/* Tools/Technologies */}
                                 <div className="flex flex-wrap gap-2 mb-4">

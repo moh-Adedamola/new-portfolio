@@ -148,18 +148,6 @@ const ProjectModal = ({ project, onClose }) => {
                         </motion.div>
 
                         <div className="space-y-4 sm:space-y-6">
-                            {/* Problem Statement */}
-                            <motion.div 
-                                variants={itemVariants}
-                                className="bg-gray-900/20 rounded-2xl p-4 sm:p-6 border border-gray-600/30"
-                            >
-                                <h4 className="text-base sm:text-lg font-bold text-teal-300 mb-3">
-                                    Problem Statement
-                                </h4>
-                                <p className="text-gray-100 font-light leading-relaxed">{project.problem}</p>
-                            </motion.div>
-
-                            {/* Solution Developed */}
                             <motion.div 
                                 variants={itemVariants}
                                 className="bg-gray-900/20 rounded-2xl p-4 sm:p-6 border border-gray-600/30"
@@ -168,17 +156,6 @@ const ProjectModal = ({ project, onClose }) => {
                                     Solution Developed
                                 </h4>
                                 <p className="text-gray-100 font-light leading-relaxed">{project.solution}</p>
-                            </motion.div>
-
-                            {/* Key Impact */}
-                            <motion.div 
-                                variants={itemVariants}
-                                className="bg-gray-900/20 rounded-2xl p-4 sm:p-6 border border-gray-600/30"
-                            >
-                                <h4 className="text-base sm:text-lg font-bold text-teal-300 mb-3">
-                                    Key Impact
-                                </h4>
-                                <p className="text-gray-100 font-light leading-relaxed">{project.impact}</p>
                             </motion.div>
 
                             {/* Technical Details */}
