@@ -35,7 +35,7 @@ const About = () => {
     >
       {/* Refined Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-700"></div>
-      
+
       {/* Subtle Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -92,7 +92,7 @@ const About = () => {
             >
               About Me
             </motion.h2>
-            <motion.div 
+            <motion.div
               className="w-20 h-1 bg-gradient-to-r from-teal-300 to-gray-600 mx-auto rounded-full"
               initial={{ width: 0 }}
               whileInView={{ width: 80 }}
@@ -101,14 +101,14 @@ const About = () => {
           </motion.div>
 
           {/* Content Container */}
-          <motion.div 
+          <motion.div
             className="bg-gray-900/20 backdrop-blur-sm rounded-3xl p-6 sm:p-8 lg:p-12 shadow-xl border border-gray-600/30"
             variants={itemVariants}
             whileHover={{ y: -3 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
             <div className="space-y-6 sm:space-y-8 lg:space-y-10">
-              <motion.p 
+              <motion.p
                 className="text-base sm:text-lg lg:text-xl xl:text-2xl leading-relaxed text-gray-100 font-light"
                 variants={itemVariants}
               >
@@ -117,11 +117,11 @@ const About = () => {
               </motion.p>
 
               {/* Skills Highlight */}
-              <motion.div 
+              <motion.div
                 className="bg-gray-800/60 rounded-2xl p-4 sm:p-6 lg:p-8 border border-gray-600/40"
                 variants={itemVariants}
               >
-                <motion.p 
+                <motion.p
                   className="text-base sm:text-lg lg:text-xl xl:text-2xl leading-relaxed text-gray-100 font-light mb-6"
                   variants={itemVariants}
                 >
@@ -143,7 +143,7 @@ const About = () => {
                 </div>
               </motion.div>
 
-              <motion.p 
+              <motion.p
                 className="text-base sm:text-lg lg:text-xl xl:text-2xl leading-relaxed text-gray-100 font-light"
                 variants={itemVariants}
               >
@@ -152,11 +152,11 @@ const About = () => {
                 <span className="font-semibold text-teal-300">engaging interfaces</span>, I prioritize technical excellence and user experience.
               </motion.p>
 
-              <motion.div 
+              <motion.div
                 className="bg-gray-800/60 rounded-2xl p-4 sm:p-6 lg:p-8 border border-gray-600/40"
                 variants={itemVariants}
               >
-                <motion.p 
+                <motion.p
                   className="text-base sm:text-lg lg:text-xl xl:text-2xl leading-relaxed text-gray-100 font-light"
                   variants={itemVariants}
                 >
@@ -165,7 +165,7 @@ const About = () => {
               </motion.div>
 
               {/* CTA Button */}
-              <motion.div 
+              <motion.div
                 className="pt-6 sm:pt-8 lg:pt-12 text-center"
                 variants={itemVariants}
               >
@@ -177,10 +177,10 @@ const About = () => {
                   whileTap={{ scale: 0.95 }}
                 >
                   <span className="relative z-10">Let's Connect</span>
-                  <motion.svg 
-                    className="ml-3 w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" 
-                    fill="none" 
-                    stroke="currentColor" 
+                  <motion.svg
+                    className="ml-3 w-5 h-5 group-hover:translate-x-2 transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
                     viewBox="0 0 24 24"
                     whileHover={{ x: 5 }}
                   >

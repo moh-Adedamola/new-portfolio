@@ -38,7 +38,7 @@ const Hero = () => {
     >
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-700"></div>
-      
+
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -79,7 +79,7 @@ const Hero = () => {
           {/* Text Content */}
           <motion.div variants={textVariants} className="order-2 lg:order-1 text-center lg:text-left">
             <motion.div variants={textVariants} className="mb-6">
-              <motion.div 
+              <motion.div
                 className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800/60 text-teal-300 font-medium tracking-wide mb-6 rounded-full text-sm border border-gray-600/40"
                 whileHover={{ scale: 1.02 }}
                 transition={{ type: "spring", stiffness: 300 }}
@@ -87,7 +87,7 @@ const Hero = () => {
                 <Code className="w-4 h-4" />
                 <span>Full-Stack Software Engineer</span>
               </motion.div>
-              
+
               <h1
                 id="hero-heading"
                 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 leading-tight"
@@ -98,7 +98,7 @@ const Hero = () => {
               </h1>
             </motion.div>
 
-            <motion.h2 
+            <motion.h2
               variants={textVariants}
               className="text-lg sm:text-xl lg:text-2xl text-gray-100 font-light mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
@@ -109,14 +109,14 @@ const Hero = () => {
               through clean code and creative problem-solving.
             </motion.h2>
 
-            <motion.div 
+            <motion.div
               variants={textVariants}
               className="bg-gray-900/20 rounded-xl p-6 border border-gray-600/30 mb-8 shadow-sm max-w-2xl mx-auto lg:mx-0"
             >
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-10 h-10 bg-teal-300 rounded-full flex items-center justify-center">
+                {/* <div className="flex-shrink-0 w-10 h-10 bg-teal-300 rounded-full flex items-center justify-center">
                   <Zap className="w-5 h-5 text-gray-900" />
-                </div>
+                </div> */}
                 <div>
                   <p className="text-base lg:text-lg text-gray-100 font-light leading-relaxed">
                     Specialized in Java, Python, JavaScript, and  MERN stack—transforming complex ideas into elegant, scalable solutions.
@@ -125,7 +125,7 @@ const Hero = () => {
               </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               variants={textVariants}
               className="flex justify-center lg:justify-start"
             >
@@ -155,8 +155,8 @@ const Hero = () => {
           >
             <div className="relative group">
               <div className="absolute inset-0 bg-teal-300/10 rounded-2xl transform translate-x-2 translate-y-2 -z-10 blur-sm" />
-              
-              <motion.div 
+
+              <motion.div
                 className="relative bg-gray-900/20 rounded-2xl p-2 border border-gray-600/30 shadow-lg"
                 whileHover={{ y: -2, scale: 1.01 }}
                 transition={{ type: "spring", stiffness: 300 }}
@@ -166,11 +166,11 @@ const Hero = () => {
                   alt="Mohammed Adegbite - Full-Stack Software Engineer"
                   className="relative w-full h-auto rounded-xl shadow-md filter brightness-95 hover:brightness-100 transition-all duration-300"
                 />
-                
+
                 <div className="absolute inset-2 bg-gradient-to-t from-gray-900/10 via-transparent to-transparent rounded-xl pointer-events-none" />
               </motion.div>
 
-              <motion.div
+              {/* <motion.div
                 className="absolute -top-3 -right-3 w-10 h-10 bg-teal-300 rounded-full flex items-center justify-center shadow-md"
                 animate={{
                   y: [-2, 2, -2],
@@ -182,9 +182,9 @@ const Hero = () => {
                 }}
               >
                 <Code className="w-5 h-5 text-gray-900" />
-              </motion.div>
-              
-              <motion.div
+              </motion.div> */}
+
+              {/* <motion.div
                 className="absolute -bottom-3 -left-3 w-8 h-8 bg-teal-300 rounded-full flex items-center justify-center shadow-md"
                 animate={{
                   y: [2, -2, 2],
@@ -196,7 +196,7 @@ const Hero = () => {
                 }}
               >
                 <Zap className="w-4 h-4 text-gray-900" />
-              </motion.div>
+              </motion.div> */}
             </div>
           </motion.div>
         </motion.div>
